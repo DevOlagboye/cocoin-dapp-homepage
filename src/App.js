@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Heropage from './components/Heropage/Heropage';
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <Heropage/>
     </div>
   );
 }
