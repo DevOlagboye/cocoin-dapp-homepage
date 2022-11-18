@@ -1,7 +1,9 @@
 .hero-container {
     background: url('../../assets/images/background.png');
-    height: 700px;
+    height: 750px;
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .hero-container .logo-menu {
@@ -56,6 +58,41 @@
     color: #FFF;
     font-size: 24px;
     margin-top: 30px;
+}
+
+.hero-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.hero-input {
+    padding: 20px 200px 20px 10px;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    background: transparent;
+    position: relative;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    position: absolute;
+    margin-left: 190px;
+    background: #FF00E5;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.hero-input::placeholder {
+    color: #FFFFFF;
+}
+
+.hero-input:focus {
+    outline-color: #FFFFFF;
 }
 
 @media (max-width: 500px) {
