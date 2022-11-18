@@ -1,6 +1,6 @@
 import './App.css';
 import Heropage from './components/Heropage/Heropage';
-import About from './components/Heropage/About/About';
+import About from './components/About/About';
 function App() {
   return (
     <div>
