@@ -1,0 +1,16 @@
+.direction-container {
+    background-color: #000;
+    padding: 40px;
+    color: #fff;
+}
+
+.direction-text {
+    text-align: center;
+}
+
+.direction-text h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-family: "Manrope", sans-serif;
+}
