@@ -20,7 +20,7 @@ const Heropage = () => {
         </div>
         </div>
         <div className='line'>
-        <img src={line} alt="" srcset="" />
+        <img src={line} alt="" />
         </div>
         <h2 className='hero-text'>The World’s Fastest Growing Crypto Community</h2>
         <p>A highly-curated platform for creating, collecting and trading unique<br/> NFTs. Trade with confidence on the world’s fastest and most secure <br/> crypto exchange</p>

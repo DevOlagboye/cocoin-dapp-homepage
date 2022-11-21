@@ -15,20 +15,20 @@ const Direction = () => {
         </div>
         <div className='direction-elements'>
             <div className='direction-card'>
-                <img src={element1Image} alt="Powerful for developers" srcset="" />
+                <img src={element1Image} alt="Powerful for developers"/>
                 <h5>Powerful for developers</h5>
                 <p>Cucoin is a decentralized blockchain<br/> built to enable scalable, user-friendly<br/> apps for the world.</p>
                 <a href="##">Learn more <FaArrowRight/></a>
             </div>
             <div className='direction-card'>
-                <img src={element2Image} alt="Powerful for developers" srcset="" />
+                <img src={element2Image} alt="Powerful for developers"/>
                 <h5>Low cost, forever</h5>
                 <p>Our scalability ensures transactions<br/> remain less than $0.01 for both<br/> developers and users.</p>
 
                 <a href="##">Learn more <FaArrowRight/></a>
             </div>
             <div className='direction-card'>
-                <img src={element3Image} alt="Powerful for developers" srcset="" />
+                <img src={element3Image} alt="Powerful for developers"/>
                 <h5>Decentralized</h5>
                 <p>The network is spread over thousands <br/> of independent nodes,so  your <br/>transactions are always safe.</p>
                 <a href="##">Learn more <FaArrowRight/></a>

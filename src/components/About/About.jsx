@@ -11,7 +11,7 @@ const About = () => {
             </div>
             <div className='about-details'>
                 <div className='about-image'>
-                    <img src={bitcoinLogo} alt="About" srcset="" />
+                    <img src={bitcoinLogo} alt="About"/>
                 </div>
                 <div className='about-info'>
                     <div className='about-paletee'>
