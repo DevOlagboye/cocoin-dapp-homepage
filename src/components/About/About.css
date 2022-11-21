@@ -51,3 +51,12 @@
     padding: 10px;
     border-radius: 20px;
 }
+
+@media(max-width: 500px) {
+    .about-image img {
+        width: 400px;
+    }
+    .about-details {
+        gap: 50px;
+    }
+}

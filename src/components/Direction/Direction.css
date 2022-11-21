@@ -18,3 +18,39 @@
 .direction-text p {
     font-family: "Manrope", sans-serif;
 }
+
+.direction-elements {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 60px;
+}
+
+.direction-card {
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    background: #000;
+    padding: 30px;
+    border: 1px rgba(255, 255, 255, 0.1) solid;
+    border-radius: 16px;
+}
+
+.direction-card img {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.direction-card h5 {
+    margin-bottom: 20px;
+}
+
+.direction-card p {
+    margin-bottom: 20px;
+}
+
+.direction-card a {
+    color: #fff;
+    text-decoration: none;
+}
