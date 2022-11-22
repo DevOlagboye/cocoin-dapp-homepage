@@ -34,7 +34,7 @@ const Footer = () => {
                 </form>
             </div>
         </div>
-        <p className='footer-copyright'>Cucoin© Copyright 2022. All rights reserved</p>
+        <p className='footer-copyright'>Cucoin © Copyright {new Date().getFullYear()}. All rights reserved</p>
     </div>
   )
 }
