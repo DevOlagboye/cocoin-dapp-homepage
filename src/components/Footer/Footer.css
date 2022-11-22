@@ -6,12 +6,9 @@
 
 .social-text {
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .social-icons {
-    width: 50%;
     margin-bottom: 20px;
 }
 
@@ -24,6 +21,7 @@
 .footer-text {
     font-size: 20px;
     font-family: "Manrope", sans-serif;
+    margin-left: 49%;
 }
 
 .footer-details {
@@ -87,7 +85,7 @@
         flex-direction: column;
     }
     .footer-text {
-        width: 100%;
+        margin-left: 2%;
     }
     .social-icons {
         width: 100%;
