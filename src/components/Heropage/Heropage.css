@@ -27,6 +27,10 @@
     margin: 20px 15px 0px 15px;
 }
 
+.hero-container ul li:hover {
+    cursor: pointer;
+}
+
 .hero-container ul button {
     background: rgba(255, 255, 255, 0.08);
     height: 50px;
@@ -35,6 +39,10 @@
     font-size: 20px;
     border: none;
     border-radius: 30px;
+}
+
+.hero-container ul button:hover {
+    cursor: pointer;
 }
 
 .hero-container .line {
@@ -108,7 +116,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 425px) {
     .hero-container .menu-list {
         display: none;
     }
@@ -121,5 +129,30 @@
     }
     .menu-bar {
         display: flex;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero-container .menu-list {
+        display: none;
+    }
+    .hero-container .line {
+        display: none;
+    }
+    .hero-container .hero-text {
+        font-size: 30px;
+        margin-top: 100px;
+    }
+    .menu-bar {
+        display: flex;
+    }
+}
+
+@media (max-width: 1200px) {
+    .hero-container .line {
+        display: none;
+    }
+    .logo {
+        width: 40%;
     }
 }
