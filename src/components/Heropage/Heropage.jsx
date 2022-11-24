@@ -1,9 +1,20 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Heropage.css'
+import {Drawer} from 'antd'
+import {FaBars} from "react-icons/fa"
 import logo from "../../assets/images/logo.png"
 import line from "../../assets/images/Line.png"
 
 const Heropage = () => {
+    const [open, setOpen] = useState(false)
+    const [size, setSize] = useState();
+    const showSideBar = () => {
+        setSize('200px')
+        setOpen(true)
+    }
+    const onClose = () =>{
+        setOpen(false)
+    }
   return (
     <div className='hero-container'>
         <div className='logo-menu'>
@@ -18,6 +29,15 @@ const Heropage = () => {
                 <button>Join us</button>
             </ul>
         </div>
+        <FaBars onClick={showSideBar} className='menu-bar'/>
+        <Drawer placement='right' onClose={onClose} open={open} className='menu-drawer' size={size}>
+        <ul>
+                <li>Licence</li>
+                <li>About us</li>
+                <li>How to start</li>
+                <button>Join us</button>
+            </ul>
+        </Drawer>
         </div>
         <div className='line'>
         <img src={line} alt="" />

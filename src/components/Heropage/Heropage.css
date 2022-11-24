@@ -96,6 +96,18 @@
     outline-color: #FFFFFF;
 }
 
+.menu-bar {
+    color: #FFF;
+    margin-top: 40px;
+    margin-left: 25%;
+    font-size: 20px;
+    display: none;
+}
+
+.menu-bar:hover {
+    cursor: pointer;
+}
+
 @media (max-width: 500px) {
     .hero-container .menu-list {
         display: none;
@@ -106,5 +118,8 @@
     .hero-container .hero-text {
         font-size: 30px;
         margin-top: 100px;
+    }
+    .menu-bar {
+        display: flex;
     }
 }
