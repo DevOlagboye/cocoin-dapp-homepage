@@ -54,7 +54,7 @@
 
 @media(max-width: 500px) {
     .about-image img {
-        width: 400px;
+        width: 350px;
     }
     .about-details {
         gap: 50px;
