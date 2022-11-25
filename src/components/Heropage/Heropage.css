@@ -121,6 +121,40 @@
     cursor: pointer;
 }
 
+.menu-drawer {
+    background-color: #000 !important;
+    color: #FFF !important;
+}
+
+.menu-drawer .cancelIcon {
+    font-size: 20px;
+}
+
+.menu-drawer .cancelIcon:hover {
+    cursor: pointer;
+}
+
+.menu-drawer ul {}
+
+.menu-drawer ul li {
+    list-style: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.menu-drawer ul li:hover {
+    cursor: pointer;
+}
+
+.menu-drawer ul button {
+    background: #FF00E5;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
 @media (max-width: 425px) {
     .hero-container .menu-list {
         display: none;

@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './Heropage.css'
 import {Drawer} from 'antd'
-import {FaBars} from "react-icons/fa"
+import {FaBars, FaTimes} from "react-icons/fa"
 import logo from "../../assets/images/logo.png"
 import line from "../../assets/images/Line.png"
 
@@ -30,7 +30,8 @@ const Heropage = () => {
             </ul>
         </div>
         <FaBars onClick={showSideBar} className='menu-bar'/>
-        <Drawer placement='right' onClose={onClose} open={open} className='menu-drawer' size={size}>
+        <Drawer placement='right' open={open} className='menu-drawer' size={size} onClose={onClose}>
+        <FaTimes onClick={onClose} className='cancelIcon'/>
         <ul>
                 <li>Licence</li>
                 <li>About us</li>
