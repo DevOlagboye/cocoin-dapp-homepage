@@ -98,6 +98,10 @@
     border-radius: 20px;
 }
 
+.hero-input:focus {
+    outline: none;
+}
+
 .hero-button:hover {
     cursor: pointer;
 }
