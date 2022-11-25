@@ -170,6 +170,7 @@
     }
     .menu-bar {
         display: flex;
+        margin-left: 72px;
     }
     .hero-container .logo-menu {
         gap: 100px !important;
@@ -189,7 +190,6 @@
     }
     .menu-bar {
         display: flex;
-        margin-left: 50px;
     }
 }
 
