@@ -190,9 +190,6 @@
     .menu-bar {
         display: flex;
     }
-    .hero-container .logo-menu {
-        margin-left: 50px;
-    }
 }
 
 @media (max-width: 1200px) {
