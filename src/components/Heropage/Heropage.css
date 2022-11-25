@@ -96,6 +96,10 @@
     border-radius: 20px;
 }
 
+.hero-button:hover {
+    cursor: pointer;
+}
+
 .hero-input::placeholder {
     color: #FFFFFF;
 }

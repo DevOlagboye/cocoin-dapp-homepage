@@ -75,6 +75,10 @@
     margin-top: 40px;
 }
 
+.footer-form button:hover {
+    cursor: pointer;
+}
+
 .footer-copyright {
     margin-top: 50px;
     text-align: center;
