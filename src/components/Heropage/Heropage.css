@@ -25,10 +25,12 @@
     color: #fff;
     list-style: none;
     margin: 20px 15px 0px 15px;
+    transition: ease-in-out 0.3s;
 }
 
 .hero-container ul li:hover {
     cursor: pointer;
+    color: #FF00E5;
 }
 
 .hero-container ul button {

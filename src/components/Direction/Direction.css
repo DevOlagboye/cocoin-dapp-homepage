@@ -53,4 +53,9 @@
 .direction-card a {
     color: #fff;
     text-decoration: none;
+    transition: ease-in-out 0.5s;
+}
+
+.direction-card a:hover {
+    color: #FF00E5;
 }
