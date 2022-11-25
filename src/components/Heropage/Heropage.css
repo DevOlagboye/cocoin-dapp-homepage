@@ -134,8 +134,6 @@
     cursor: pointer;
 }
 
-.menu-drawer ul {}
-
 .menu-drawer ul li {
     list-style: none;
     margin-top: 50px;
