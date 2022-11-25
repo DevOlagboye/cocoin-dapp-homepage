@@ -172,7 +172,7 @@
         display: flex;
     }
     .hero-container .logo-menu {
-        gap: 200px !important;
+        gap: 150px !important;
     }
 }
 
