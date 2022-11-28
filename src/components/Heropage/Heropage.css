@@ -8,12 +8,12 @@
 
 .hero-container .logo-menu {
     display: flex;
-    gap: 600px;
 }
 
 .logo {
     margin-left: 20px;
     margin-top: 20px;
+    width: 60%;
 }
 
 .hero-container ul {
@@ -168,12 +168,11 @@
         font-size: 30px;
         margin-top: 100px;
     }
+    .logo {
+        width: 80%;
+    }
     .menu-bar {
         display: flex;
-        margin-left: 72px;
-    }
-    .hero-container .logo-menu {
-        gap: 100px !important;
     }
 }
 
@@ -188,16 +187,10 @@
         font-size: 30px;
         margin-top: 100px;
     }
-    .menu-bar {
-        display: flex;
-    }
 }
 
 @media (max-width: 1200px) {
     .hero-container .line {
         display: none;
-    }
-    .hero-container .logo-menu {
-        gap: 250px;
     }
 }
