@@ -29,6 +29,7 @@ contract SimpleStorage{
     //The 32 in front of the bytes here specify the amount of byte
     //Which means 32 bytes and if converted to bits it will be 256 bits
     bytes32 favoriteBytes = "Cat";
+    uint256 myNumber = 2349029776837;
     //People public person = People({favoriteNumber: 2, name: "Olagboye", age: 23});
     //If we are to start adding more bunch of people it won't be a
     //a good practice to start copying and pasting them like people1
