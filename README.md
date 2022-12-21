@@ -1,3 +1,7 @@
+# Inspiration behind this Project
+Currently Exploring Web3 and found this landing page on [Figma community](https://www.figma.com/file/G4W4qF1j0LJqTgwhxmft6q/crypto-website-ui-%7C-landing-page-(Community)?node-id=290%3A543&t=XAMbKSlBW9bLz4dl-0) and decided to build it with react was a really good experience
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
